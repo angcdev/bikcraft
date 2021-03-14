@@ -1,0 +1,10 @@
+Estilo 
+geometrico nas formas, organico na tipografia
+
+tipografia
+georgia 
+arial / helvetica
+
+cores
+#fec63e amarelo
+#000000 preto
