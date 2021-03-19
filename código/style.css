@@ -55,6 +55,26 @@ img {
 
 }
 
+.subtitulo-interno {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subtitulo-interno::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px 0;
+
+}
+
 /*header*/
 .header {
     position: fixed;
@@ -90,7 +110,9 @@ img {
     color: #fff;
 }
 
-
+.header_menu ul li a.menu-ativo {
+    color: #fff;
+}
 
 
 /*introdução*/
@@ -139,6 +161,35 @@ img {
     font-size: 14px;
     letter-spacing: .1em;
 }
+
+/*introdução interna*/
+
+.intro-interna {
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.intro-interna h1 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.intro-interna h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 6px auto 10px auto;
+}
+
 
 
 
@@ -241,6 +292,7 @@ img {
 
 .quality-list {
     padding-top: 20px;
+    overflow: auto; /*clrar-fixo*/
 }
 
 .quality-list li {
