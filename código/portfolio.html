@@ -45,27 +45,63 @@
         </section>
 
         <section class="container">
-            <blockquote class="quote-cliente">
-                <p>
-                    “No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte.”
-                </p>
-                <cite>
-                    Barbara Moss
-                </cite>
-            </blockquote>
+            <ul class="rslides">
+                <li>
+                    <blockquote class="quote-cliente">
+                        <p>
+                            “No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte.”
+                        </p>
+                        <cite>
+                            Barbara Moss
+                        </cite>
+                    </blockquote>
+                </li>
+                <li>
+                    <blockquote class="quote-cliente">
+                        <p>
+                            "Neste sentido, o consenso sobre a necessidade de qualificação possibilita uma melhor visão global das condições inegavelmente apropriadas."                        </p>
+                        <cite>
+                            Sandra Moss
+                        </cite>
+                    </blockquote>
+                </li>
+                <li>
+                    <blockquote class="quote-cliente">
+                        <p>
+                            "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a revolução dos costumes nos obriga à análise dos níveis."                        </p>
+                        <cite>
+                            Bob Moss
+                        </cite>
+                    </blockquote>
+                </li>
+            </ul>
         </section>
 
         <section class="portfolio">
             <div class="container">
-                <ul class="portfolio-list">
-                    <li class="grid-8">
-                        <img src="./produtos/retro.jpg" alt="bicicleta retrô">
+                <ul class="portfolio-list rslides_portfolio">
+                    <li>
+                        <div class="grid-8">
+                            <img src="./produtos/retro.jpg" alt="bicicleta retrô">
+                        </div>
+                        <div class="grid-8">
+                            <img src="./produtos/passeio.jpg" alt="bicicleta passeio">
+                        </div>
+                        <div class="grid-16">
+                            <img src="./produtos/esporte.jpg" alt="bicicleta espotiva">
+                        </div>
                     </li>
-                    <li class="grid-8">
-                        <img src="./produtos/passeio.jpg" alt="bicicleta passeio">
-                    </li>
-                    <li class="grid-16">
-                        <img src="./produtos/esporte.jpg" alt="bicicleta espotiva">
+
+                    <li>
+                        <div class="grid-8">
+                            <img src="./produtos/passeio.jpg" alt="bicicleta passeio">
+                        </div>
+                        <div class="grid-8">
+                            <img src="./produtos/retro.jpg" alt="bicicleta retrô">
+                        </div>
+                        <div class="grid-16">
+                            <img src="./produtos/esporte.jpg" alt="bicicleta espotiva">
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -114,5 +150,13 @@
                 </div>
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js" integrity="sha256-Ls0pXSlb7AYs7evhd+VLnWsZ/AqEHcXBeMZUycz/CcA=" crossorigin="anonymous"></script>
+        <script src="./js/plugins.js"></script>
+        <script src="./js/main.js"></script>
+        <script>
+            $(function() {
+              $(".rslides").responsiveSlides();
+            });
+        </script>
     </body>
 </html>
