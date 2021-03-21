@@ -401,3 +401,26 @@ img {
     padding: 20px 0;
 }
 
+
+
+/*animação*/
+
+
+.intro h1, 
+.intro blockquote, 
+.intro .btn,
+.intro-interna h1,
+.intro-interna p{
+    opacity: 0;
+}
+
+.intro blockquote, 
+.intro-interna p {
+    --animate-delay: 0.4s;
+}
+
+.intro .btn {
+    --animate-delay: 0.9s;
+}
+
+
