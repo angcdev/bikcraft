@@ -11,6 +11,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .btn {
@@ -203,6 +204,10 @@ img {
     text-align: center;
 }
 
+.products-list li img {
+    margin: 0 auto;
+}
+
 .products-list li h3 {
     font-weight: bold;
     font-size: 18px;
@@ -392,3 +397,4 @@ img {
     background: #fec63e;
     padding: 20px 0;
 }
+

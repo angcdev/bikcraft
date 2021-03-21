@@ -1,0 +1,1 @@
+imagem colocar max-width de 100% pra se ajustar a area que ela pode ocupar
