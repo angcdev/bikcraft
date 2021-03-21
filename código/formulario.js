@@ -1,23 +1,7 @@
-$(".rslides").responsiveSlides({
-    auto: true,             // Boolean: Animate automatically, true or false
-    speed: 500,            // Integer: Speed of the transition, in milliseconds
-    timeout: 6000,          // Integer: Time between slide transitions, in milliseconds
-  });
-
-  $(".rslides_portfolio").responsiveSlides({
-    auto: true,             // Boolean: Animate automatically, true or false
-    speed: 500,            // Integer: Speed of the transition, in milliseconds
-    timeout: 6000,          // Integer: Time between slide transitions, in milliseconds
-    pager: true,           // Boolean: Show pager, true or false
-  });
-
-
-
-
 // Formulario
 
 $('.formphp').on('submit', function() {
-	var emailContato = "angelacavalcanti94@gmail.com"; // Escreva aqui o seu e-mail
+	var emailContato = ""; // Escreva aqui o seu e-mail
 
 	var that = $(this),
 			url = that.attr('action'),
